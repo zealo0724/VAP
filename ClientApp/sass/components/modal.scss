@@ -1,0 +1,55 @@
+.addtenantAdminModal {
+    width: 1000px;
+}
+
+.modal-dialog {
+    label {
+        display: block;
+    }
+
+    .wide {
+        width: 100%;
+    }
+
+    input, select {
+        height: 36px;
+    }
+
+    .addPlussSymble {
+        position: absolute;
+    }
+
+    %input-border {
+        border-width: 1px;
+        border-color: #ccc;
+    }
+
+    .valueInvalid {
+        @extend %input-border;
+        background-color: #ff8e8e;
+    }
+
+    .valueValid {
+        @extend %input-border;
+        background-color: transparent;
+    }
+}
+
+.tooltipAfterText {
+    margin-left: 10px;
+}
+
+.fullWidthInput {
+    width: 100%;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.myTooltip {
+    .tooltip-inner {
+        width: 400px !important;
+        max-width: 400px !important;
+    }
+}

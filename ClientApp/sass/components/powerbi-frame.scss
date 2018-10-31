@@ -1,0 +1,24 @@
+.powerbi-frame{
+    width: 100%;
+    height: 644px;
+
+    iframe{
+        border: none;
+    }
+}
+.verticalLine {
+    border-left: 1px solid #cccccc;
+    display: inline-block;
+    margin-left: -1px;
+    padding: 0px 0px 0px 3px;
+    height: 50px;
+    float: left;
+    padding-right: 50px;
+}
+.site-title{
+    float:left;
+}
+.headRightDiv {
+    min-width: 290px;
+    display: block;
+}

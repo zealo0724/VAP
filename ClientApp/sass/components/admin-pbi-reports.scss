@@ -1,0 +1,39 @@
+#admin-pbi-reports {
+    .pbi-report-location {
+        text-align: center;
+        color: #777;
+        margin-bottom: 0;
+        font-style: italic;
+    }
+
+    .table {
+        .delete-btn {
+            cursor: pointer;
+            color: red;
+        }
+
+        %text-align {
+            text-align: center;
+        }
+
+        .text-align {
+            @extend %text-align;
+        }
+
+        .no-report {
+            @extend %text-align;
+            color: #ccc;
+        }
+
+        .used-in-reports {
+            @extend %text-align;
+            color: #000;
+        }
+    }
+}
+
+#uploadForm {
+    #connectionstring {
+        width: 100%;
+    }
+}

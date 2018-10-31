@@ -1,0 +1,45 @@
+.admin-block-row {
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .admin-block {
+        height: 220px;
+        cursor: pointer;
+        padding: 10px;
+        margin-top: 20px;
+        text-align: center;
+        border: 1px solid #ccc;
+        transition: background-color 0.3s linear;
+
+
+        span {
+            font-size: 30px;
+            padding-top: 20px;
+        }
+
+        .r-content {
+            transition: color 0.3s linear;
+        }
+
+        &:hover {
+            background-color: #eef4f7;
+
+            .r-content {
+                color: #009fda;
+            }
+        }
+
+        img {
+            float: right;
+        }
+
+        .exclamation {
+            font-size: 20px;
+            position: absolute;
+            top: 5px;
+            right: 20px;
+        }
+    }
+}

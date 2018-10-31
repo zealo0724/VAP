@@ -1,0 +1,41 @@
+#admin-tenants {
+    table {
+        .edit-btn, .delete-btn, .user-icon {
+            cursor: pointer;
+        }
+
+        .user-icon {
+            margin-right: 30px;
+        }
+    }
+}
+
+.location {
+    .radio {
+        input {
+            height: auto;
+        }
+    }
+}
+
+.withLocation {
+    .modal-dialog {
+        width: 1200px;
+    }
+}
+
+.location-btn {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.premiumLocation {
+    .delete-btn {
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    .edit-btn {
+        cursor: pointer;
+    }
+}

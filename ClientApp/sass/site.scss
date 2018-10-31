@@ -1,0 +1,107 @@
+@import './components/entity-block';
+@import './components/entity-info';
+@import './components/powerbi-frame';
+@import './components/entity-reports';
+@import './components/admin-common';
+@import './components/admin-block';
+@import './components/admin-pbi-reports';
+@import './components/admin-report-connect';
+@import './components/admin-entity-connect';
+@import './components/admin-user-access';
+@import './components/modal';
+@import './components/spinner';
+@import './components/page-error';
+@import './components/admin-tenants';
+@import './components/admin-config';
+
+
+
+.header-dnvgl {
+    .space-stack {
+        // margin-bottom: 0 !important;
+    }
+
+    .navbar {
+        min-height: 30px;
+    }
+
+    .logo-image {
+        background: url('Logo-Extended-RGB.svg');
+    }
+}
+
+.navbar-dnvgl {
+    margin-bottom: 20px;
+
+    .container {
+        // border-bottom: 1px solid #0f204b;
+        // padding-bottom: 10px;
+    }
+}
+
+.content-body {
+    min-height: 499px;
+}
+
+#footer {
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    border-top: 1px solid #f2f2f2;
+    margin-top: 50px;
+
+    span {
+        margin: 0 20px;
+    }
+
+    .content-container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.loading-animation {
+    margin: auto;
+    width: 230px;
+    height: 230px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-appear {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.3s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+a.logo-responsive:focus{
+    box-shadow:none;
+}
+
+.noReportError {
+    margin-top: 50px !important;
+    color: #a94442;
+}
+
+.activeReportMenu {
+    font-weight: bold;
+}
+
+.tab-vl {
+    border-left: 1px solid gray;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    top: 0;
+}

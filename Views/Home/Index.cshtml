@@ -1,0 +1,34 @@
+@{
+    ViewData["Title"] = "Home Page";
+    string jsUrl = "/dist/main.js?v=" + Startup.UpdateFileVersion();
+}
+
+<![if !IE]>
+<div id="react-app">Loading...</div>
+<![endif]>
+<!-- <div id="react-app" asp-prerender-module="ClientApp/dist/main-server">Loading...</div> -->
+
+<div id="IEContanier" style="display: none; width: 50%; text-align: center; margin-right: auto; margin-left: auto; margin-top: 300px;">
+    <div>
+        <h2>Internet Explorer is not supported</h2>
+        <p id="errorMessage">To be able to access @ViewBag.TenantName - Veracity Adapter for Power BI you need to use <a href="https://www.mozilla.org/">Mozilla Firefox</a> or <a href="https://www.google.com/chrome/">Google Chrome</a>. We recommend using Chrome.</p>
+    </div>
+</div>
+
+@section scripts {
+    @*<script>
+        IsIEexplorer();
+        function IsIEexplorer() {
+            // var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera;
+            var isIE = window.ActiveXObject || "ActiveXObject" in window;
+            if (isIE) {
+                document.getElementById('IEContanier').style.display = "";
+                document.getElementById('react-app').style.display = "none";
+            } else {
+                document.getElementById('IEContanier').style.display = "none";
+                document.getElementById('react-app').style.display = "";
+            }
+        }
+    </script>*@
+    <script src=@jsUrl asp-append-version="true"></script>
+}

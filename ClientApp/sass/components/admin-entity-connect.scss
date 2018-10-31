@@ -1,0 +1,11 @@
+#admin-entity-connect {
+    table {
+        .edit-btn, .delete-btn {
+            cursor: pointer;
+        }
+
+        .delete-btn {
+            color: red;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.component_entity-info {
+    .entity-header {
+        border-top: 3px solid #0f204b;
+        border-bottom: 3px solid #0f204b;
+        padding: 20px 0;
+        margin-bottom: 30px;
+        h2 {
+            margin-top: 0;
+            display: inline-block;
+        }
+        .entity-prop {
+            margin: 10px 0;
+        }
+        .reports-button {
+            margin-top: 10px;
+        }
+    }
+    .child-entity {
+        text-decoration: none;
+        color: inherit;
+        .entity {
+            box-shadow: 5px 0 0 gray inset;
+            padding-left: 20px;
+            margin-bottom: 20px;
+            h3 {
+                margin: 0;
+            }
+            .entity-edit {
+                margin-left: 30px;
+            }
+            &:hover {
+                cursor: pointer;
+                box-shadow: 5px 0 0 #009fda inset;
+            }
+        }
+    }
+}

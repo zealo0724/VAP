@@ -1,0 +1,68 @@
+#admin-config {
+    // Fighting mydnvgl styling
+    .btn-group-lg > .btn > :last-child .btn-group-lg > .btn > :last-child > :last-child,
+    .btn-group-lg > .btn > :last-child .btn-lg > :last-child > :last-child,
+    .btn-group-sm > .btn > :last-child .btn-group-sm > .btn > :last-child > :last-child,
+    .btn-group-sm > .btn > :last-child .btn-sm > :last-child > :last-child,
+    .btn-group-xs > .btn > :last-child .btn-group-xs > .btn > :last-child > :last-child,
+    .btn-group-xs > .btn > :last-child .btn-xs > :last-child > :last-child,
+    .btn-lg > :last-child .btn-group-lg > .btn > :last-child > :last-child,
+    .btn-lg > :last-child .btn-lg > :last-child > :last-child,
+    .btn-md > :last-child .btn-md > :last-child > :last-child,
+    .btn-sm > :last-child .btn-group-sm > .btn > :last-child > :last-child,
+    .btn-sm > :last-child .btn-sm > :last-child > :last-child,
+    .btn-xs > :last-child .btn-group-xs > .btn > :last-child > :last-child,
+    .btn-xs > :last-child .btn-xs > :last-child > :last-child,
+    body > footer > :last-child body > footer > :last-child > :last-child,
+    dd:last-child,
+    dl:last-child,
+    li:last-child,
+    ol:last-child,
+    ul:last-child {
+        margin-bottom: -1px;
+    }
+
+    .type-content {
+        padding: 15px;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+
+        label {
+            display: block;
+
+            &:not(:first-child) {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .padding-right-16 {
+        margin-right: 16px;
+    }
+}
+#editTooltip {
+    .tooltipInput {
+        width: 550px;
+    }
+}
+
+.headIcon {
+    float: left;
+}
+.headIconButton {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.clopBtn{
+    width:100%;
+    button{
+        margin-left: 43%;
+    }
+}
+
+#admin-config .header-dnvgl {
+    margin: 0;
+    overflow: hidden;
+    float: left;
+}

@@ -1,0 +1,119 @@
+#admin-user-access {
+    div {
+        button {
+            margin-right: 0.5em;
+        }
+    }
+}
+
+#addUserForm {
+    tbody {
+        tr {
+            cursor: pointer;
+
+            &:hover {
+                background-color: #009fda;
+            }
+        }
+    }
+}
+
+#bathAddUserForm {
+    .fileInput {
+        height: 25px;
+
+        input {
+            float: left;
+        }
+
+        button {
+            float: right;
+        }
+    }
+}
+
+.exlLink {
+    width: 300px;
+    height: 25px;
+}
+
+#admin-user-access {
+    .table {
+        .action-buttons {
+            text-align: right;
+
+            .delete-btn {
+                cursor: pointer;
+                margin-left: 20px;
+            }
+
+            .edit-btn {
+                cursor: pointer;
+            }
+        }
+
+        .role-pill {
+            font-size: 14px;
+            display: inline-block;
+            background-color: #ccecf8;
+            color: #24365c;
+            border-radius: 4px;
+            margin: 5px 5px;
+            padding: 3px;
+        }
+
+        .filterTr {
+            th {
+                vertical-align: top !important;
+                width: 25%;
+            }
+
+            .clearButton {
+                text-align: right;
+            }
+
+            .filterInput {
+                height: 36px;
+                padding: 0 10px 0 10px;
+            }
+        }
+
+        ::-webkit-input-placeholder {
+            color: #aaa;
+        }
+        /* firefox 19+ */
+        ::-moz-placeholder {
+            color: #aaa;
+        }
+        /* ie */
+        :-ms-input-placeholder {
+            color: #aaa;
+        }
+    }
+}
+.delete-btn {
+    color: red;
+}
+.AlertText {
+    color: #a94442;
+    font-size: 14px;
+}
+.pagination {
+    display: block;
+    text-align: center;
+
+    div {
+        display: inline-block;
+        margin-left: 20px;
+
+        select {
+            width: 100px;
+            height: 33px;
+        }
+    }
+
+    .pagenationPagesize {
+        position: relative;
+        top: -11px;
+    }
+}

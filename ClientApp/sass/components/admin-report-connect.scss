@@ -1,0 +1,28 @@
+#admin-report-connect {
+    .table {
+        .edit-btn, .delete-btn {
+            cursor: pointer;
+        }
+
+        .delete-btn{
+            margin-left: 20px;
+            color: red;
+        }
+    }
+}
+
+.modal-content {
+    .errors {
+        color: red;
+    }
+}
+
+.CustomTitle {
+    .CustomTitleContent {
+        padding-left: 30px;
+    }
+
+    .checkbox input {
+        height: auto;
+    }
+}

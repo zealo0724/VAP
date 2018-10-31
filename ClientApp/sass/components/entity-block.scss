@@ -1,0 +1,16 @@
+.component_entity-block {
+    a {
+        color: inherit;
+        text-decoration: none;
+
+        .block {
+            transition: background-color 0.3s linear;
+        }
+
+        &:hover {
+            .block {
+                background-color: #eef4f7;
+            }
+        }
+    }
+}
